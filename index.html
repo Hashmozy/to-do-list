@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header>
-    </header>
-	<div class="container"></div>
-
+    <div class="container">
+      <div class="todoApp">
+        <h2>To Do List <img src="images/icon.png" alt="to-do-list icon" /></h2>
+        <div class="row">
+          <input id="input-box" type="text" placeholder="Add task...." />
+          <button type="button" onclick="addTask()">Add</button>
+        </div>
+        <ul class="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>
