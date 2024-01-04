@@ -48,6 +48,8 @@
   outline: none;
   background-color: transparent;
   margin: 12px;
+  font-size: 18px;
+  color: #444;
 }
 
 .row button {
@@ -89,7 +91,7 @@ ul li::before {
   background-image: url("/images/unchecked.png");
   background-size: cover;
   background-position: center;
-  top: 17px;
+  top: 20px;
   left: -30px;
   background-color: #fff;
 }
@@ -101,4 +103,21 @@ ul li.checked {
 
 ul li.checked::before {
   background-image: url(images/checked.png);
+}
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: #555;
+  border-radius: 50%;
+}
+
+ul li span:hover {
+  background-color: #999;
 }
